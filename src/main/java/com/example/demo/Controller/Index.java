@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Index {
     @RequestMapping("/")
     public String indexTest(){
-        return "hello12";
+        return "hello";
     }
 }
