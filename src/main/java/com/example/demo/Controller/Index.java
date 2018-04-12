@@ -12,4 +12,8 @@ public class Index {
     public String indexTest(){
         return "hello";
     }
+    @RequestMapping("/index")
+    public String hello(){
+        return "Hello World !";
+    }
 }
